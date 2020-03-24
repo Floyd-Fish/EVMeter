@@ -1652,4 +1652,105 @@ Wire Wire Line
 Connection ~ 5450 2700
 Wire Wire Line
 	5450 2700 5000 2700
+$Comp
+L Memory_EEPROM:M24C02-FMN EEPROM1
+U 1 1 5E7340A1
+P 9750 3600
+F 0 "EEPROM1" H 9600 3850 50  0000 C CNN
+F 1 "M24C02-FMN" H 9350 3350 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9750 3950 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf" H 9800 3100 50  0001 C CNN
+	1    9750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E73530D
+P 9200 3250
+F 0 "C5" H 9200 3350 50  0000 L CNN
+F 1 "104" H 9200 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 3100 50  0001 C CNN
+F 3 "~" H 9200 3250 50  0001 C CNN
+	1    9200 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5E7494E2
+P 9750 3150
+F 0 "#PWR014" H 9750 3000 50  0001 C CNN
+F 1 "VCC" H 9767 3323 50  0000 C CNN
+F 2 "" H 9750 3150 50  0001 C CNN
+F 3 "" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3150 9750 3250
+Wire Wire Line
+	9350 3250 9750 3250
+Connection ~ 9750 3250
+Wire Wire Line
+	9750 3250 9750 3300
+$Comp
+L power:GND #PWR015
+U 1 1 5E77080A
+P 9750 4000
+F 0 "#PWR015" H 9750 3750 50  0001 C CNN
+F 1 "GND" H 9755 3827 50  0000 C CNN
+F 2 "" H 9750 4000 50  0001 C CNN
+F 3 "" H 9750 4000 50  0001 C CNN
+	1    9750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4000 9750 3950
+Wire Wire Line
+	9350 3500 9300 3500
+Wire Wire Line
+	9300 3500 9300 3600
+Wire Wire Line
+	9300 3700 9350 3700
+Wire Wire Line
+	9350 3600 9300 3600
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 9300 3700
+Wire Wire Line
+	9050 3250 9000 3250
+Wire Wire Line
+	9000 3250 9000 3600
+Wire Wire Line
+	9000 3600 9300 3600
+Wire Wire Line
+	9000 3600 9000 3800
+Connection ~ 9000 3600
+$Comp
+L power:GND #PWR013
+U 1 1 5E7D2804
+P 9000 3800
+F 0 "#PWR013" H 9000 3550 50  0001 C CNN
+F 1 "GND" H 9005 3627 50  0000 C CNN
+F 2 "" H 9000 3800 50  0001 C CNN
+F 3 "" H 9000 3800 50  0001 C CNN
+	1    9000 3800
+	1    0    0    -1  
+$EndComp
+Text Label 10500 3600 0    50   Italic 0
+SCL
+Text Label 10500 3500 0    50   Italic 0
+SDA
+Wire Wire Line
+	10500 3500 10150 3500
+Wire Wire Line
+	10150 3600 10500 3600
+Wire Wire Line
+	10150 3700 10250 3700
+Wire Wire Line
+	10250 3700 10250 3950
+Wire Wire Line
+	10250 3950 9750 3950
+Connection ~ 9750 3950
+Wire Wire Line
+	9750 3950 9750 3900
 $EndSCHEMATC
