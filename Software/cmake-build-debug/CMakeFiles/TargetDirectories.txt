@@ -1,3 +1,0 @@
-G:/EVMeter/EVMeter/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/EVMeter/EVMeter/cmake-build-debug/CMakeFiles/EVMeter.elf.dir
-G:/EVMeter/EVMeter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
