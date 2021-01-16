@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EVMeter_V2.1-rescue)(type Legacy)(uri ${KIPRJMOD}/EVMeter_V2.1-rescue.lib)(options "")(descr ""))
+)
